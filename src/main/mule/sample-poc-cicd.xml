@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener" doc:id="afecd24c-e791-4cbb-afe3-a35e88015bb2" config-ref="HTTP_Listener_config" path="/sample">
 			<ee:repeatable-file-store-stream />
 		</http:listener>
-		<set-payload value="#['Hi all, CICD']" doc:name="Set Payload" doc:id="3074d703-e18a-4a7f-9d71-e6f376597bbe" />
+		<set-payload value="#['Hi all, CICD hello']" doc:name="Set Payload" doc:id="3074d703-e18a-4a7f-9d71-e6f376597bbe" />
 	</flow>
 </mule>
