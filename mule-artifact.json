@@ -1,0 +1,18 @@
+{
+  "configs": [
+    "sample-poc-cicd.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "sample-poc-cicd",
+  "minMuleVersion": "4.1.2",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {}
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
